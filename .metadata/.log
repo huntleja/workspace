@@ -1,0 +1,94 @@
+!SESSION 2010-09-09 09:42:08.115 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-09-09 09:42:25.880
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2010-09-09 09:45:26.820 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-09-09 09:45:36.617
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2010-09-29 14:14:39.820 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data H:\csce145\workspace -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-09-29 14:14:41.289
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2010-10-26 08:57:13.868 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-10-26 08:57:22.102
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2010-12-02 09:05:34.881 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-12-02 09:07:06.257
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-12-02 09:07:06.257
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenProjectWizard':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenProjectWizard,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.wst.jsdt.internal.ui.wizards.OpenJavaScriptFileWizardToolbarAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet,org.eclipse.ui.internal.WorkbenchWindow@107f742),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@107f742)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenProjectWizard,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.wst.jsdt.internal.ui.wizards.OpenJavaScriptProjectWizardToolbarAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet,org.eclipse.ui.internal.WorkbenchWindow@107f742),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@107f742)),sourcePriority=16640)
+!SESSION 2010-12-13 08:39:12.398 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.workbench 2 0 2010-12-13 08:39:54.321
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2010-12-13 08:39:54.321
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenProjectWizard':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenProjectWizard,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.wst.jsdt.internal.ui.wizards.OpenJavaScriptProjectWizardToolbarAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet,org.eclipse.ui.internal.WorkbenchWindow@1ca5df9),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1ca5df9)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenProjectWizard,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.wst.jsdt.internal.ui.wizards.OpenJavaScriptFileWizardToolbarAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet,org.eclipse.ui.internal.WorkbenchWindow@1ca5df9),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1ca5df9)),sourcePriority=16640)
+!SESSION 2011-01-19 10:21:25.838 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.workbench 2 0 2011-01-19 10:22:00.526
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-01-19 10:22:00.526
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenProjectWizard':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenProjectWizard,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.wst.jsdt.internal.ui.wizards.OpenJavaScriptProjectWizardToolbarAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet,org.eclipse.ui.internal.WorkbenchWindow@df824a),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@df824a)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenProjectWizard,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.wst.jsdt.internal.ui.wizards.OpenJavaScriptFileWizardToolbarAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet,org.eclipse.ui.internal.WorkbenchWindow@df824a),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@df824a)),sourcePriority=16640)

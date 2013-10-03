@@ -1,0 +1,22 @@
+public class TestTime {
+
+	
+	public static void main(String[] args) {
+		Time t1 = new Time("00", "15");
+		Time t2 = new Time("23", "09");
+		t1.display();
+		t2.display();
+		t1.addMinute(32);
+		t1.display();
+		Time.twelveHour = true;
+		
+		t1.display();
+		t2.display();
+		Time.twelveHour = false;
+		t1.display();
+		t2.display();
+		
+		
+	}
+
+}

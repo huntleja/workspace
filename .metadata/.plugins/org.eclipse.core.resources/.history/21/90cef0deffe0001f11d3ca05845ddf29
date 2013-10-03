@@ -1,0 +1,142 @@
+public class Time {
+
+
+	private String minute;
+	private String hour;
+	static boolean twelveHour;
+
+
+	public Time(String h, String m) {
+		hour = h;
+		minute = m;
+	}
+
+
+	public String getHour() {
+		int x = Integer.parseInt(hour);
+	if(twelveHour==true&&x>=12){	
+			x = x-12;
+			hour = Integer.toString(x);
+			return hour;
+		}
+		else{
+			return hour;
+			}
+	}
+
+
+	public String getMinute() {
+		return minute;
+	}
+
+
+	public void setHour(int h) {			
+		hour = Integer.toString(h);
+	
+		}
+
+
+	
+
+
+	public void setMinute(int m) {
+		
+			minute = Integer.toString(m);
+		}
+	
+
+
+	public void addHour(int h) {
+		if (twelveHour == true) {
+			if (getPeriodDesignator() == "AM") {
+				int startHour = Integer.parseInt(hour);
+				int startMinute = Integer.parseInt(minute);
+				if (startHour == 00)
+					startHour = 12;
+
+
+				if (startHour + h >= 12) {
+					int finalHour = (startHour + h) - 12;
+					hour = Integer.toString(finalHour);
+				} else {
+					startHour = startHour + h;
+					hour = Integer.toString(startHour);
+				}
+
+
+			} else {
+				int startHour = Integer.parseInt(hour);
+				int startMinute = Integer.parseInt(minute);
+				startHour = startHour - 12;
+				if (startHour == 00)
+					startHour = 12;
+				if (startHour + h >= 12) {
+					int finalHour = (startHour + h) - 12;
+					hour = Integer.toString(finalHour);
+				} else {
+					startHour = startHour + h;
+					hour = Integer.toString(startHour);
+
+
+				}
+			}
+
+
+		} else {
+			int startHour = Integer.parseInt(hour);
+			if (startHour + h >= 24) {
+				int finalHour = (startHour + h) - 24;
+				hour = Integer.toString(finalHour);
+			} else {
+				hour = hour + h;
+			}
+		}
+
+
+	}
+
+
+	public void addMinute(int m) {
+		int x = Integer.parseInt(minute);
+		if (x + m >= 60) {
+			int finalMinute = (x + m) - 60;
+			minute = Integer.toString(finalMinute);
+			int startHour = Integer.parseInt(hour);
+			int finalHour = startHour + 1;
+			if (finalHour >= 24) {
+				int newHour = finalHour - 24;
+				hour = Integer.toString(newHour);
+			} else {
+				hour = Integer.toString(finalHour);
+			}
+		} else {
+			minute = minute + m;
+		}
+	}
+
+
+	public void display() {
+		if (twelveHour == true) {
+			System.out.println("The time is "+getHour()+":"+getMinute()+getPeriodDesignator());
+			} 
+		else {
+				System.out.println("The time is " + getHour() + ":" + getMinute());}
+		}
+	public String getPeriodDesignator() {
+
+
+		twelveHour=false;
+		int y = Integer.parseInt(hour);
+		int startMinute = Integer.parseInt(getMinute());
+		if (y<12){
+			twelveHour=true;
+			return "AM";}
+		else{
+			twelveHour=true;
+			return "PM";
+		}
+		}
+	
+	
+}
+	

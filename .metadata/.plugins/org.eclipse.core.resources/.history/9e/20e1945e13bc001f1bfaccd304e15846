@@ -1,0 +1,42 @@
+import javax.swing.JOptionPane;
+/**
+ * 
+ */
+
+/**
+ * @author huntleja
+ *
+ */
+public class values {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double small, large, median, average, count, sum, number = 0;
+		small = Double.POSITIVE_INFINITY;
+		large = Double.NEGATIVE_INFINITY;
+		count = 0;
+		sum = 0;
+		
+		
+		String first =	JOptionPane.showInputDialog("Input numbers (to end either type end or stop):");
+		while ((!first.contentEquals("end")) || (!first.contentEquals("stop"))) {
+			if ((!first.contentEquals("end")) || (!first.contentEquals("stop")))
+				number = Double.parseDouble(first);
+			
+			if ((!first.contentEquals("end")) || (!first.contentEquals("stop")) && (number >= large))
+				number = large;
+			
+			if ((!first.contentEquals("end")) || (!first.contentEquals("stop")) && (number >= small))
+				number = small;
+			
+			if ((!first.contentEquals("end")) || (!first.contentEquals("stop")))
+					count++;
+					sum += number;
+			
+		}
+	}
+
+}

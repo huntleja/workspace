@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Converter</title>
+</head>
+<body>
+<script language="javascript">
+<!--hide
+
+function MsgBox(textstring){
+	var input = prompt("Type your questioin","How many inches are in 2 meters?");
+
+	input=input.split(" ");
+	var target = input[2];
+	var source = input[6];
+	var amount=input[5];
+	var result=0;
+
+
+	var cm_mmm=10;
+	var m_mm=1000;
+	var in_mm=25.4;
+   	if(input.length!=7)
+	{
+		alert("wrong question.");
+		return false;
+	}
+
+
+	if(source.indexOf("meter")>=0&&target.indexOf("inch")>=0){
+		result=amount*(m_mm/in_mm);
+		alert(result);
+		return true;
+	}
+	else if(source.indexOf("inch")>=0&&target.indexOf("meter")>=0){
+		result=amount*(in_mm/m_mm);
+		alert(result);
+		return true;
+	}
+    else if(source.indexOf("liters")>=0&&target.indexOf("quarts")>=0){
+		result=amount* 1.05668821;
+		alert(result);
+		return true;
+	}
+    else if(target.indexOf("liters")>=0&&source.indexOf("quarts")>=0){
+		result=amount* 0.94635295;
+		alert(result);
+		return true;
+	}
+    else if(source.indexOf("grams")>=0&&target.indexOf("pounds")>=0){
+		result=amount*  0.00220462262;
+		alert(result);
+		return true;
+	}
+    else if(source.indexOf("pounds")>=0&&target.indexOf("grams")>=0){
+		result=amount* 453.59237;
+		alert(result);
+		return true;
+	}
+	else
+	{
+		alert("nothing!");
+		return false;
+	}
+}
+</script>
+
+<form method="post">
+	<input name="Button1" onclick="MsgBox();" type="button" value="Show Me"></form>
+</body>
+
